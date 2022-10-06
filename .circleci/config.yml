@@ -25,6 +25,6 @@ jobs: # a collection of steps
       - store_artifacts:
           path: coverage/lcov-report
           destination: coverage
-			- run:
+      - run:
           name: deploy
           command: curl "https://api.render.com/deploy/srv-ccvik8pa6gdrok1lod2g?key=zRjovDfc9QY"
