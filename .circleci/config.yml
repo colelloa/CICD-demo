@@ -27,4 +27,4 @@ jobs: # a collection of steps
           destination: coverage
       - run:
           name: deploy
-          command: curl "https://api.render.com/deploy/srv-ccvik8pa6gdrok1lod2g?key=zRjovDfc9QY"
+          command: curl "https://api.render.com/deploy/srv-cd09c7la4994l0dhjt6g?key=lH3Z28Jo_MM"
